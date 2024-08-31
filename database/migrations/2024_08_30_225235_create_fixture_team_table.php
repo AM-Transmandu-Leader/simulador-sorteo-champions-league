@@ -11,13 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('fixture_matches', function (Blueprint $table) {
+        Schema::create('fixture_team', function (Blueprint $table) {
             $table->id();
-            $table->date('date');
-            $table->integer('home_team_score')->default(0);
-            $table->integer('away_team_score')->default(0);
-            $table->string('stadium');
-            $table->boolean('isFinished')->default(false);
+            $table->foreignId('team_id')->constrained('teams');
             $table->foreignId('fixture_id')->constrained('fixtures');
             $table->timestamps();
         });
@@ -28,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('fixture_matches');
+        Schema::dropIfExists('fixture_team');
     }
 };
