@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('name', 20);
             $table->string('abbrevation', 5);
             $table->bigInteger('UEFA_coeff');
-            $table->foreignId('country_id')->constrained();
-            $table->foreignId('pot_id')->constrained();
+            $table->foreignId('country_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('pot_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

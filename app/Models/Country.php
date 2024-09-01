@@ -9,9 +9,13 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Country extends Model
 {
     use HasFactory;
+
+    public $timestamps = false;
+
     protected $fillable = [
         'name',
-        'flagPicture',
+        'abbrevation',
+        'flag_picture',
     ];
 
     public function teams(): HasMany

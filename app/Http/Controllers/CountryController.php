@@ -7,12 +7,11 @@ use Illuminate\Http\Request;
 
 class CountryController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        //
+        $countries = Country::with('teams')->get();
+
+        return view('countries.index', compact('countries'));
     }
 
     /**

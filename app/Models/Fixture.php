@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Fixture extends Model
 {
     use HasFactory;
-    
+
     protected $fillable = [
         'home_team_id',
         'away_team_id',
@@ -30,6 +30,4 @@ class Fixture extends Model
     {
         return $this->belongsTo(Team::class, 'away_team_id');
     }
-
-
 }

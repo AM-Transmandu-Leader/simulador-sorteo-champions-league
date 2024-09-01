@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -12,12 +11,13 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 class Team extends Model
 {
     use HasFactory;
+
     protected $fillable = [
         'name',
         'abbrevation',
         'UEFA_coeff',
         'country_id',
-        'pot_id'
+        'pot_id',
     ];
 
     public function country(): BelongsTo
@@ -38,8 +38,8 @@ class Team extends Model
     public function opponents(): HasManyThrough
     {
         return $this->hasManyThrough(Team::class, Fixture::class, 'home_team_id', 'id', 'id', 'away_team_id')
-                    ->orWhereHas('homeTeams', function ($query) {
-                        $query->where('away_team_id', $this->id);
-                    });
+            ->orWhereHas('homeTeams', function ($query) {
+                $query->where('away_team_id', $this->id);
+            });
     }
 }
