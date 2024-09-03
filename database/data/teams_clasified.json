@@ -1,0 +1,298 @@
+[
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 136000,
+        "emblem": "Real_Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Manchester City",
+        "abreviation": "MCI",
+        "uefa_coeff": 148000,
+        "emblem": "Manchester_City.png",
+        "country_id": 142,
+        "pot_id": null
+    },
+    {
+        "name": "Bayern Munchen",
+        "abreviation": "BMU",
+        "uefa_coeff": 144000,
+        "emblem": "Bayern_Munchen.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "Liverpool",
+        "abreviation": "LIV",
+        "uefa_coeff": 114000,
+        "emblem": "Liverpool.png",
+        "country_id": 142,
+        "pot_id": null
+    },
+    {
+        "name": "Inter de Milan",
+        "abreviation": "IMI",
+        "uefa_coeff": 101000,
+        "emblem": "Inter.png",
+        "country_id": 88,
+        "pot_id": null
+    },
+    {
+        "name": "Paris Saint-Germain",
+        "abreviation": "PSG",
+        "uefa_coeff": 116000,
+        "emblem": "PSG.png",
+        "country_id": 64,
+        "pot_id": null
+    },
+    {
+        "name": "Borussia Dortmund",
+        "abreviation": "BDO",
+        "uefa_coeff": 97000,
+        "emblem": "Borussia_Dortmund.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "RB Leipzig",
+        "abreviation": "RBL",
+        "uefa_coeff": 119000,
+        "emblem": "RB_Leipzig.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "Arsenal",
+        "abreviation": "ARS",
+        "uefa_coeff": 72000,
+        "emblem": "Arsenal.png",
+        "country_id": 142,
+        "pot_id": null
+    },
+    {
+        "name": "Aston Villa",
+        "abreviation": "AVL",
+        "uefa_coeff": 17000,
+        "emblem": "Aston_Villa.png",
+        "country_id": 142,
+        "pot_id": null
+    },
+    {
+        "name": "Atalanta BC",
+        "abreviation": "ATA",
+        "uefa_coeff": 81000,
+        "emblem": "Atalanta.png",
+        "country_id": 88,
+        "pot_id": null
+    },
+    {
+        "name": "Atlético de Madrid",
+        "abreviation": "ATM",
+        "uefa_coeff": 119000,
+        "emblem": "Atletico_de_Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Girona FC",
+        "abreviation": "GIR",
+        "uefa_coeff": 14000,
+        "emblem": "Girona.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Barcelona FC",
+        "abreviation": "BAR",
+        "uefa_coeff": 91000,
+        "emblem": "Barcelona.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "SL Benfica",
+        "abreviation": "BEN",
+        "uefa_coeff": 54500,
+        "emblem": "Benfica.png",
+        "country_id": 141,
+        "pot_id": null
+    },
+    {
+        "name": "SC Sporting",
+        "abreviation": "SCP",
+        "uefa_coeff": 54500,
+        "emblem": "SC_Sporting.png",
+        "country_id": 141,
+        "pot_id": null
+    },
+    {
+        "name": "Bologna FC",
+        "abreviation": "BOL",
+        "uefa_coeff": 14000,
+        "emblem": "Bologna.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "AC Milan",
+        "abreviation": "MIL",
+        "uefa_coeff": 119000,
+        "emblem": "AC_Milan.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "AC Sparta Praga",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "AC_Sparta_Praha.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Bayer 04 Leverkusen",
+        "abreviation": "LEV",
+        "uefa_coeff": 119000,
+        "emblem": "Bayer_Leverkusen.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "BSC Young Boys",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "BSC_Young_Boys.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Celtic",
+        "abreviation": "CEL",
+        "uefa_coeff": 119000,
+        "emblem": "Celtic.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Club Brujas",
+        "abreviation": "BRU",
+        "uefa_coeff": 119000,
+        "emblem": "Club_Brugge_KV.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Real Madrid",
+        "abreviation": "RMA",
+        "uefa_coeff": 119000,
+        "emblem": "Real Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    }
+]
