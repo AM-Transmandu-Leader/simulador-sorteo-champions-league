@@ -20,6 +20,9 @@ Route::middleware('auth')->group(function () {
 
     //Routes for Countries
     Route::get('/countries', [CountryController::class, 'index'])->name('countries.index');
+
+    //Routes for teams
+    Route::get('/teams_clasified', [CountryController::class, 'index'])->name('teams.index');
 });
 
 require __DIR__.'/auth.php';

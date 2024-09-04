@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Countries') }}
+            {{ __('Teams') }}
         </h2>
     </x-slot>
 
@@ -11,7 +11,7 @@
                 <div class="rounded-t mb-0 px-4 py-3 border-0">
                     <div class="flex flex-wrap items-center">
                         <div class="relative w-full px-4 max-w-full flex-grow flex-1">
-                            <h3 class="font-semibold text-base text-indigo-700">Countries</h3>
+                            <h3 class="font-semibold text-base text-indigo-700">Teams</h3>
                         </div>
                     </div>
                 </div>
@@ -22,42 +22,45 @@
                             <tr
                                 class="px-6 py-3 bg-indigo-300 text-indigo-700 font-semibold align-middle border border-solid border-indigo-700">
                                 <th> # </th>
-                                <th>{{ __('name')}}</th>
-                                <th>{{ __('abbreviation')}}</th>
-                                <th>{{ __('flag')}}</th>
-                                <th>{{ __('teams')}}</th>
+                                <th>{{ __('Name')}}</th>
+                                <th>{{ __('Abbrevation')}}</th>
+                                <th>{{ __('UEFA Coefficient')}}</th>
+                                <th>{{ __('Emblem')}}</th>
+                                <th>{{ __('Country')}}</th>
                             </tr>
                         </thead>
                         <tbody>
-                            @forelse ($countries as $country)
+                            @forelse ($teams as $team)
                             <tr
                                 class="px-6 py-3 bg-sky-100 text-black font-semibold align-middle border border-solid border-indigo-700">
                                 <td>
-                                    {{ $country->id }}
+                                    {{ $team->id }}
                                 </td>
                                 <td>
-                                    {{ $country->name }}
+                                    {{ $team->name }}
                                 </td>
                                 <td>
-                                    {{ $country->abbrevation }}
+                                    {{ $team->abbrevation }}
                                 </td>
                                 <td>
-                                    <img src="{{ asset('icons/flags/' . $country->flag_picture) }}" alt="{{ $country->abbrevation }}" height="32px" width="32px" srcset="">
+                                    {{ $team->uefa_coeff }}
+                                </td>
+                                <td>
+                                    {{ $team->country->name }}
+                                    <img src="{{ asset('icons/teams_emblem/' . $team->emblem) }}" alt="{{ $team->abbrevation }}" height="32px" width="32px" >
                                     
                                 </td>
                                 <td>
-                                    <ul class="bg-white rounded-lg shadow divide-y divide-gray-200 ">
-                                        
-                                        @foreach ($country->teams as $team)
-                                        <li class="px-4 py-2 w-full">
-                                            <div class="flex justify-around w-full">
-                                                <img src="{{ asset('icons/teams_emblem/' . $team->emblem) }}" alt="{{ $team->abbrevation }}" height="64px" width="64px" >
+                                    <ul class="bg-white rounded-lg shadow divide-y divide-gray-200 max-w-sm">
+                                        AQUI VAN LOS EQUIPOS DE {{ $country->name }}
+                                        {{-- @foreach ($country->teams as $team)
+                                        <li class="px-6 py-4">
+                                            <div class="flex justify-between">
                                                 <span class="font-semibold text-lg">{{ $team->name }}</span>
-                                               
-                                               
+                                                <span class="text-zinc-500 text-sm">{{ $team->coeff }}</span>
                                             </div>
                                         </li>
-                                        @endforeach
+                                        @endforeach --}}
                                     </ul>
                                 </td>
                             </tr>

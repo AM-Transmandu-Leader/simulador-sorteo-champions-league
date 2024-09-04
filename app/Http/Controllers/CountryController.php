@@ -9,7 +9,7 @@ class CountryController extends Controller
 {
     public function index()
     {
-        $countries = Country::with('teams')->get();
+        $countries = Country::with('teams')->has('teams')->get();
 
         return view('countries.index', compact('countries'));
     }
