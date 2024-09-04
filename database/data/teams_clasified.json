@@ -1,0 +1,290 @@
+[
+    {
+        "name": "Real Madrid",
+        "abbrevation": "RMA",
+        "uefa_coeff": 136000,
+        "emblem": "Real_Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Manchester City",
+        "abbrevation": "MCI",
+        "uefa_coeff": 148000,
+        "emblem": "Manchester_City.png",
+        "country_id": 144,
+        "pot_id": null
+    },
+    {
+        "name": "Bayern Munchen",
+        "abbrevation": "BMU",
+        "uefa_coeff": 144000,
+        "emblem": "Bayern_Munchen.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "Liverpool",
+        "abbrevation": "LIV",
+        "uefa_coeff": 114000,
+        "emblem": "Liverpool.png",
+        "country_id": 144,
+        "pot_id": null
+    },
+    {
+        "name": "Inter de Milan",
+        "abbrevation": "IMI",
+        "uefa_coeff": 101000,
+        "emblem": "Inter.png",
+        "country_id": 88,
+        "pot_id": null
+    },
+    {
+        "name": "Paris Saint-Germain",
+        "abbrevation": "PSG",
+        "uefa_coeff": 116000,
+        "emblem": "PSG.png",
+        "country_id": 64,
+        "pot_id": null
+    },
+    {
+        "name": "Borussia Dortmund",
+        "abbrevation": "BDO",
+        "uefa_coeff": 97000,
+        "emblem": "Borussia_Dortmund.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "RB Leipzig",
+        "abbrevation": "RBL",
+        "uefa_coeff": 119000,
+        "emblem": "RB_Leipzig.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "Arsenal",
+        "abbrevation": "ARS",
+        "uefa_coeff": 72000,
+        "emblem": "Arsenal.png",
+        "country_id": 144,
+        "pot_id": null
+    },
+    {
+        "name": "Aston Villa",
+        "abbrevation": "AVL",
+        "uefa_coeff": 20860,
+        "emblem": "Aston_Villa.png",
+        "country_id": 144,
+        "pot_id": null
+    },
+    {
+        "name": "Atalanta BC",
+        "abbrevation": "ATA",
+        "uefa_coeff": 81000,
+        "emblem": "Atalanta.png",
+        "country_id": 88,
+        "pot_id": null
+    },
+    {
+        "name": "Atlético de Madrid",
+        "abbrevation": "ATM",
+        "uefa_coeff": 89000,
+        "emblem": "Atletico_de_Madrid.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Girona FC",
+        "abbrevation": "GIR",
+        "uefa_coeff": 17897,
+        "emblem": "Girona.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Barcelona FC",
+        "abbrevation": "BAR",
+        "uefa_coeff": 91000,
+        "emblem": "Barcelona.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "SL Benfica",
+        "abbrevation": "BEN",
+        "uefa_coeff": 79000,
+        "emblem": "Benfica.png",
+        "country_id": 141,
+        "pot_id": null
+    },
+    {
+        "name": "SC Sporting",
+        "abbrevation": "SCP",
+        "uefa_coeff": 54500,
+        "emblem": "SC_Sporting.png",
+        "country_id": 141,
+        "pot_id": null
+    },
+    {
+        "name": "Bologna FC",
+        "abbrevation": "BOL",
+        "uefa_coeff": 18056,
+        "emblem": "Bologna.png",
+        "country_id": 88,
+        "pot_id": null
+    },
+    {
+        "name": "AC Milan",
+        "abbrevation": "MIL",
+        "uefa_coeff": 59000,
+        "emblem": "AC_Milan.png",
+        "country_id": 88,
+        "pot_id": null
+    },
+    {
+        "name": "AC Sparta Praga",
+        "abbrevation": "SPR",
+        "uefa_coeff": 22500,
+        "emblem": "AC_Sparta_Praha.png",
+        "country_id": 146,
+        "pot_id": null
+    },
+    {
+        "name": "Bayer 04 Leverkusen",
+        "abbrevation": "LEV",
+        "uefa_coeff": 90000,
+        "emblem": "Bayer_Leverkusen.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "BSC Young Boys",
+        "abbrevation": "YBS",
+        "uefa_coeff": 34500,
+        "emblem": "BSC_Young_Boys.png",
+        "country_id": 172,
+        "pot_id": null
+    },
+    {
+        "name": "Celtic",
+        "abbrevation": "CEL",
+        "uefa_coeff": 32000,
+        "emblem": "Celtic.png",
+        "country_id": 143,
+        "pot_id": null
+    },
+    {
+        "name": "Club Brujas",
+        "abbrevation": "BRU",
+        "uefa_coeff": 64000,
+        "emblem": "Club_Brugge_KV.png",
+        "country_id": 57,
+        "pot_id": null
+    },
+    {
+        "name": "Juventus",
+        "abbrevation": "JUV",
+        "uefa_coeff": 80000,
+        "emblem": "Juventus.png",
+        "country_id": 88,
+        "pot_id": null
+    },
+    {
+        "name": "Shaktar Dotnesk",
+        "abbrevation": "SHD",
+        "uefa_coeff": 63000,
+        "emblem": "Shaktar_Dotnesk.png",
+        "country_id": 185,
+        "pot_id": null
+    },
+    {
+        "name": "Feyernoord",
+        "abbrevation": "FEY",
+        "uefa_coeff": 57000,
+        "emblem": "Feyernoord.png",
+        "country_id": 133,
+        "pot_id": null
+    },
+    {
+        "name": "PSV Eindhoven",
+        "abbrevation": "PSV",
+        "uefa_coeff": 54000,
+        "emblem": "PSV_Eindhoven.png",
+        "country_id": 133,
+        "pot_id": null
+    },
+    {
+        "name": "Estrella Roja",
+        "abbrevation": "CRZ",
+        "uefa_coeff": 40000,
+        "emblem": "Crvena_Zvezda.png",
+        "country_id": 160,
+        "pot_id": null
+    },
+    {
+        "name": "LOSC Lille",
+        "abbrevation": "LIL",
+        "uefa_coeff": 47000,
+        "emblem": "Lille.png",
+        "country_id": 64,
+        "pot_id": null
+    },
+    {
+        "name": "GNK Dinamo Zagreb",
+        "abbrevation": "ZAG",
+        "uefa_coeff": 50000,
+        "emblem": "Dinamo_Zagreb.png",
+        "country_id": 46,
+        "pot_id": null
+    },
+    {
+        "name": "AS Monaco",
+        "abbrevation": "MON",
+        "uefa_coeff": 24000,
+        "emblem": "Monaco.png",
+        "country_id": 64,
+        "pot_id": null
+    },
+    {
+        "name": "RB Salzburg",
+        "abbrevation": "SAL",
+        "uefa_coeff": 50000,
+        "emblem": "RB_Salzburg.png",
+        "country_id": 12,
+        "pot_id": null
+    },
+    {
+        "name": "SK Slovan Bratislava",
+        "abbrevation": "SLO",
+        "uefa_coeff": 30500,
+        "emblem": "Slovan_Bratislava.png",
+        "country_id": 55,
+        "pot_id": null
+    },
+    {
+        "name": "Vfb Stuttgart",
+        "abbrevation": "STU",
+        "uefa_coeff": 17324,
+        "emblem": "Stuttgart.png",
+        "country_id": 3,
+        "pot_id": null
+    },
+    {
+        "name": "SK Sturm Graz",
+        "abbrevation": "STG",
+        "uefa_coeff": 14500,
+        "emblem": "Sturm_Graz.png",
+        "country_id": 12,
+        "pot_id": null
+    },
+    {
+        "name": "Stade Brestois 29",
+        "abbrevation": "BRE",
+        "uefa_coeff": 13366,
+        "emblem": "Stade_Brestois.png",
+        "country_id": 64,
+        "pot_id": null
+    }
+]

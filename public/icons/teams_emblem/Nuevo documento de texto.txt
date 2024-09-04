@@ -1,0 +1,108 @@
+Arsenal FC
+Arsenal
+(ENG)
+Aston Villa FC
+Aston Villa
+(ENG)
+Atalanta BC
+Atalanta
+(ITA)
+Atlético de Madrid
+Atleti
+(ESP)
+Borussia Dortmund
+B. Dortmund
+(GER)
+FC Barcelona
+Barcelona
+(ESP)
+FC Bayern München
+Bayern München
+(GER)
+SL Benfica
+Benfica
+(POR)
+Bologna FC 1909
+Bologna
+(ITA)
+Stade Brestois 29
+Brest
+(FRA)
+Celtic FC
+Celtic
+(SCO)
+Club Brugge KV
+Club Brugge
+(BEL)
+FK Crvena Zvezda
+Crvena Zvezda
+(SRB)
+Feyenoord
+Feyenoord
+(NED)
+Girona FC
+Girona
+(ESP)
+GNK Dinamo
+GNK Dinamo
+(CRO)
+FC Internazionale Milano
+Inter
+(ITA)
+Juventus
+Juventus
+(ITA)
+RB Leipzig
+Leipzig
+(GER)
+Bayer 04 Leverkusen
+Leverkusen
+(GER)
+LOSC Lille
+Lille
+(FRA)
+Liverpool FC
+Liverpool
+(ENG)
+Manchester City
+Man City
+(ENG)
+AC Milan
+Milan
+(ITA)
+AS Monaco
+Monaco
+(FRA)
+Paris Saint-Germain
+Paris
+(FRA)
+PSV Eindhoven
+PSV
+(NED)
+Real Madrid C.F.
+Real Madrid
+(ESP)
+ŠK Slovan Bratislava
+S. Bratislava
+(SVK)
+FC Salzburg
+Salzburg
+(AUT)
+FC Shakhtar Donetsk
+Shakhtar
+(UKR)
+AC Sparta Praha
+Sparta Praha
+(CZE)
+Sporting Clube de Portugal
+Sporting CP
+(POR)
+SK Sturm Graz
+Sturm Graz
+(AUT)
+VfB Stuttgart
+Stuttgart
+(GER)
+BSC Young Boys
+Young Boys
+(SUI)

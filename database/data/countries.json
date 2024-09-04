@@ -21,7 +21,12 @@
     { "id": 204, "alpha2": "bj", "alpha3": "ben", "name": "Benín" },
     { "id": 112, "alpha2": "by", "alpha3": "blr", "name": "Bielorrusia" },
     { "id": 68, "alpha2": "bo", "alpha3": "bol", "name": "Bolivia" },
-    { "id": 70, "alpha2": "ba", "alpha3": "bih", "name": "Bosnia y Herzegovina" },
+    {
+        "id": 70,
+        "alpha2": "ba",
+        "alpha3": "bih",
+        "name": "Bosnia y Herzegovina"
+    },
     { "id": 72, "alpha2": "bw", "alpha3": "bwa", "name": "Botsuana" },
     { "id": 76, "alpha2": "br", "alpha3": "bra", "name": "Brasil" },
     { "id": 96, "alpha2": "bn", "alpha3": "brn", "name": "Brunéi" },
@@ -156,6 +161,8 @@
     { "id": 616, "alpha2": "pl", "alpha3": "pol", "name": "Polonia" },
     { "id": 620, "alpha2": "pt", "alpha3": "prt", "name": "Portugal" },
     { "id": 826, "alpha2": "gb", "alpha3": "gbr", "name": "Reino Unido" },
+    { "id": 827, "alpha2": "gb", "alpha3": "sco", "name": "Escocia" },
+    { "id": 828, "alpha2": "gb", "alpha3": "eng", "name": "Inglaterra" },
     {
         "id": 140,
         "alpha2": "cf",

@@ -13,11 +13,12 @@ return new class extends Migration
     {
         Schema::create('teams', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 20);
+            $table->string('name', 50);
             $table->string('abbrevation', 5);
             $table->bigInteger('UEFA_coeff');
+            $table->string('emblem');
             $table->foreignId('country_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
-            $table->foreignId('pot_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('pot_id')->constrained()->nullable()->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

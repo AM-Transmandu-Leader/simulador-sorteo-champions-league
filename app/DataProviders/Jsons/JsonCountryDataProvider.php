@@ -25,7 +25,9 @@ class JsonCountryDataProvider extends CountryDataProvider implements CountryData
             Country::insert([
                 'name' => $country->name,
                 'abbrevation' => strtoupper($country->alpha3),
-                'flag_picture' => strtolower($country->alpha2) . '.png',
+                'flag_picture' => ($country->alpha3 === 'eng' || $country->alpha3 === 'sco')
+                                        ? 'gb-' . strtolower($country->alpha3) . '.png'
+                                        : strtolower($country->alpha2) . '.png',
             ]);
         }
     }
