@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -22,7 +23,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/countries', [CountryController::class, 'index'])->name('countries.index');
 
     //Routes for teams
-    Route::get('/teams_clasified', [CountryController::class, 'index'])->name('teams.index');
+    Route::get('/teams_clasified', [TeamController::class, 'index'])->name('teams.index');
 });
 
 require __DIR__.'/auth.php';

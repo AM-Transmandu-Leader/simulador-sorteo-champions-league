@@ -22,10 +22,10 @@
                             <tr
                                 class="px-6 py-3 bg-indigo-300 text-indigo-700 font-semibold align-middle border border-solid border-indigo-700">
                                 <th> # </th>
-                                <th>{{ __('name')}}</th>
-                                <th>{{ __('abbreviation')}}</th>
-                                <th>{{ __('flag')}}</th>
-                                <th>{{ __('teams')}}</th>
+                                <th>{{ __('Name')}}</th>
+                                <th>{{ __('Abbrevation')}}</th>
+                                <th>{{ __('Flag')}}</th>
+                                <th>{{ __('Teams')}}</th>
                             </tr>
                         </thead>
                         <tbody>

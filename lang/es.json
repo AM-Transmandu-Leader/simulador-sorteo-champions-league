@@ -164,8 +164,11 @@
 
   "Home": "Inicio",
   "Countries": "Países",
+  "Country Name": "Nombre del País",
   "Teams": "Equipos",
   "Abbrevation": "Abreviación",
   "UEFA Coefficient": "PCoeficiente UEFA",
-  "Emblem": "Emblema"
+  "Team Emblem": "Emblema del Equipo",
+  "Emblem": "Emblema",
+  "Teams Clasified": "Equipos Clasificados"
 }
