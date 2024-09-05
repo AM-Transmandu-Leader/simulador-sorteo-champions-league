@@ -120,10 +120,10 @@
         "pot_id": null
     },
     {
-        "name": "SC Sporting",
+        "name": "SCP Sporting",
         "abbrevation": "SCP",
         "uefa_coeff": 54500,
-        "emblem": "SC_Sporting.png",
+        "emblem": "SCP_Sporting.png",
         "country_id": 141,
         "pot_id": null
     },
@@ -192,10 +192,10 @@
         "pot_id": null
     },
     {
-        "name": "Shaktar Dotnesk",
+        "name": "Shakhtar Dotnetsk",
         "abbrevation": "SHD",
         "uefa_coeff": 63000,
-        "emblem": "Shaktar_Dotnesk.png",
+        "emblem": "Shakhtar_Donetsk.png",
         "country_id": 185,
         "pot_id": null
     },
@@ -259,7 +259,7 @@
         "name": "SK Slovan Bratislava",
         "abbrevation": "SLO",
         "uefa_coeff": 30500,
-        "emblem": "Slovan_Bratislava.png",
+        "emblem": "SK_Slovan_Bratislava.png",
         "country_id": 55,
         "pot_id": null
     },
@@ -275,7 +275,7 @@
         "name": "SK Sturm Graz",
         "abbrevation": "STG",
         "uefa_coeff": 14500,
-        "emblem": "Sturm_Graz.png",
+        "emblem": "SK_Sturm_Graz.png",
         "country_id": 12,
         "pot_id": null
     },
