@@ -15,5 +15,6 @@ class TeamSeeder extends Seeder
     {
         $teams = new JsonTeamDataProvider();
         $teams->import();
+        $teams->potAssigment();
     }
 }
