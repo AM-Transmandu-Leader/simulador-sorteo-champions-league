@@ -1,6 +1,71 @@
 [
     {
-        "team": "Real Madrid",
+        "team": {
+            "id": 1,
+            "name": "Real Madrid"
+        },
+        "pots":[
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": true
+                    },
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 11,
+                        "name": "Atalanta",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": true
+                    },
+                    {
+                        "id": 29,
+                        "name": "LOSC Lille",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [ 
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": true
+                    },
+                    {
+                        "id": 7,
+                        "name": "Stade Brestois 29",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 1,
@@ -37,7 +102,72 @@
         ]
     },
     {
-        "team": "Manchester City",
+        "team": {
+            "id": 2,
+            "name": "Manchester City"
+        },
+        "pots":[
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": true
+                    },
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": true
+                    },
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [ 
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": true
+                    },
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 2,
