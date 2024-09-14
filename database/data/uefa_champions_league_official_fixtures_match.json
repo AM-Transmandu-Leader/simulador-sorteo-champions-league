@@ -1,0 +1,751 @@
+[
+    {
+        "team": "Real Madrid",
+        "matches": [
+            {
+                "home_team_id": 1,
+                "away_team_id": 7
+            },
+            {
+                "home_team_id": 4,
+                "away_team_id": 1
+            },
+            {
+                "home_team_id": 1,
+                "away_team_id": 18
+            },
+            {
+                "home_team_id": 11,
+                "away_team_id": 1
+            },
+            {
+                "home_team_id": 1,
+                "away_team_id": 32
+            },
+            {
+                "home_team_id": 29,
+                "away_team_id": 1
+            },
+            {
+                "home_team_id": 1,
+                "away_team_id": 34
+            },
+            {
+                "home_team_id": 36,
+                "away_team_id": 1
+            }
+        ]
+    },
+    {
+        "team": "Manchester City",
+        "matches": [
+            {
+                "home_team_id": 2,
+                "away_team_id": 5
+            },
+            {
+                "home_team_id": 6,
+                "away_team_id": 2
+            },
+            {
+                "home_team_id": 2,
+                "away_team_id": 23
+            },
+            {
+                "home_team_id": 24,
+                "away_team_id": 2
+            },
+            {
+                "home_team_id": 2,
+                "away_team_id": 26
+            },
+            {
+                "home_team_id": 16,
+                "away_team_id": 2
+            },
+            {
+                "home_team_id": 2,
+                "away_team_id": 19
+            },
+            {
+                "home_team_id": 33,
+                "away_team_id": 2
+            }
+        ]
+    },
+    {
+        "team": "Bayern Munchen",
+        "matches": [
+            {
+                "home_team_id": 3,
+                "away_team_id": 6
+            },
+            {
+                "home_team_id": 14,
+                "away_team_id": 3
+            },
+            {
+                "home_team_id": 3,
+                "away_team_id": 15
+            },
+            {
+                "home_team_id": 25,
+                "away_team_id": 3
+            },
+            {
+                "home_team_id": 3,
+                "away_team_id": 30
+            },
+            {
+                "home_team_id": 26,
+                "away_team_id": 3
+            },
+            {
+                "home_team_id": 3,
+                "away_team_id": 33
+            },
+            {
+                "home_team_id": 10,
+                "away_team_id": 3
+            }
+        ]
+    },
+    {
+        "team": "Paris Saint-Germain",
+        "matches": [
+            {
+                "home_team_id": 6,
+                "away_team_id": 12
+            },
+            {
+                "home_team_id": 9,
+                "away_team_id": 6
+            },
+            {
+                "home_team_id": 6,
+                "away_team_id": 27
+            },
+            {
+                "home_team_id": 32,
+                "away_team_id": 6
+            },
+            {
+                "home_team_id": 6,
+                "away_team_id": 13
+            },
+            {
+                "home_team_id": 34,
+                "away_team_id": 6
+            }
+        ]
+    },
+    {
+        "team": "Liverpool",
+        "matches": [
+            {
+                "home_team_id": 8,
+                "away_team_id": 4
+            },
+            {
+                "home_team_id": 4,
+                "away_team_id": 20
+            },
+            {
+                "home_team_id": 18,
+                "away_team_id": 4
+            },
+            {
+                "home_team_id": 4,
+                "away_team_id": 29
+            },
+            {
+                "home_team_id": 27,
+                "away_team_id": 4
+            },
+            {
+                "home_team_id": 4,
+                "away_team_id": 13
+            },
+            {
+                "home_team_id": 17,
+                "away_team_id": 4
+            }
+        ]
+    },
+    {
+        "team": "Inter de Milan",
+        "matches": [
+            {
+                "home_team_id": 5,
+                "away_team_id": 9
+            },
+            {
+                "home_team_id": 20,
+                "away_team_id": 5
+            },
+            {
+                "home_team_id": 5,
+                "away_team_id": 28
+            },
+            {
+                "home_team_id": 21,
+                "away_team_id": 5
+            },
+            {
+                "home_team_id": 5,
+                "away_team_id": 31
+            },
+            {
+                "home_team_id": 19,
+                "away_team_id": 5
+            }
+        ]
+    },
+    {
+        "team": "Borussia Dortmund",
+        "matches": [
+            {
+                "home_team_id": 7,
+                "away_team_id": 14
+            },
+            {
+                "home_team_id": 7,
+                "away_team_id": 25
+            },
+            {
+                "home_team_id": 23,
+                "away_team_id": 7
+            },
+            {
+                "home_team_id": 7,
+                "away_team_id": 22
+            },
+            {
+                "home_team_id": 30,
+                "away_team_id": 7
+            },
+            {
+                "home_team_id": 7,
+                "away_team_id": 35
+            },
+            {
+                "home_team_id": 17,
+                "away_team_id": 7
+            }
+        ]
+    },
+    {
+        "team": "Leipzig",
+        "matches": [
+            {
+                "home_team_id": 8,
+                "away_team_id": 24
+            },
+            {
+                "home_team_id": 12,
+                "away_team_id": 8
+            },
+            {
+                "home_team_id": 8,
+                "away_team_id": 16
+            },
+            {
+                "home_team_id": 22,
+                "away_team_id": 8
+            },
+            {
+                "home_team_id": 8,
+                "away_team_id": 10
+            },
+            {
+                "home_team_id": 35,
+                "away_team_id": 8
+            }
+        ]
+    },
+    {
+        "team": "Barcelona FC",
+        "matches": [
+            {
+                "home_team_id": 14,
+                "away_team_id": 11
+            },
+            {
+                "home_team_id": 15,
+                "away_team_id": 14
+            },
+            {
+                "home_team_id": 14,
+                "away_team_id": 21
+            },
+            {
+                "home_team_id": 28,
+                "away_team_id": 14
+            },
+            {
+                "home_team_id": 14,
+                "away_team_id": 36
+            },
+            {
+                "home_team_id": 31,
+                "away_team_id": 14
+            }
+        ]
+    },
+    {
+        "team": "Bayer 04 Leverkusen",
+        "matches": [
+            {
+                "home_team_id": 20,
+                "away_team_id": 18
+            },
+            {
+                "home_team_id": 12,
+                "away_team_id": 20
+            },
+            {
+                "home_team_id": 20,
+                "away_team_id": 32
+            },
+            {
+                "home_team_id": 26,
+                "away_team_id": 20
+            },
+            {
+                "home_team_id": 20,
+                "away_team_id": 19
+            },
+            {
+                "home_team_id": 36,
+                "away_team_id": 20
+            }
+        ]
+    },
+    {
+        "team": "Atlético de Madrid",
+        "matches": [
+            {
+                "home_team_id": 15,
+                "away_team_id": 12
+            },
+            {
+                "home_team_id": 12,
+                "away_team_id": 29
+            },
+            {
+                "home_team_id": 32,
+                "away_team_id": 12
+            },
+            {
+                "home_team_id": 12,
+                "away_team_id": 33
+            },
+            {
+                "home_team_id": 19,
+                "away_team_id": 12
+            }
+        ]
+    },
+    {
+        "team": "Atalanta BC",
+        "matches": [
+            {
+                "home_team_id": 11,
+                "away_team_id": 9
+            },
+            {
+                "home_team_id": 25,
+                "away_team_id": 11
+            },
+            {
+                "home_team_id": 11,
+                "away_team_id": 22
+            },
+            {
+                "home_team_id": 21,
+                "away_team_id": 11
+            },
+            {
+                "home_team_id": 11,
+                "away_team_id": 35
+            },
+            {
+                "home_team_id": 34,
+                "away_team_id": 11
+            }
+        ]
+    },
+    {
+        "team": "Juventus",
+        "matches": [
+            {
+                "home_team_id": 24,
+                "away_team_id": 15
+            },
+            {
+                "home_team_id": 23,
+                "away_team_id": 24
+            },
+            {
+                "home_team_id": 24,
+                "away_team_id": 27
+            },
+            {
+                "home_team_id": 29,
+                "away_team_id": 24
+            },
+            {
+                "home_team_id": 24,
+                "away_team_id": 34
+            },
+            {
+                "home_team_id": 10,
+                "away_team_id": 24
+            }
+        ]
+    },
+    {
+        "team": "SL Benfica",
+        "matches": [
+             {
+                "home_team_id": 15,
+                "away_team_id": 26
+            },
+            {
+                "home_team_id": 28,
+                "away_team_id": 15
+            },
+            {
+                "home_team_id": 15,
+                "away_team_id": 17
+            },
+            {
+                "home_team_id": 31,
+                "away_team_id": 15
+            }
+        ]
+    },
+    {
+        "team": "Arsenal",
+        "matches": [
+            {
+                "home_team_id": 9,
+                "away_team_id": 25
+            },
+            {
+                "home_team_id": 9,
+                "away_team_id": 30
+            },
+            {
+                "home_team_id": 16,
+                "away_team_id": 9
+            },
+            {
+                "home_team_id": 9,
+                "away_team_id": 31
+            },
+            {
+                "home_team_id": 13,
+                "away_team_id": 9
+            }
+        ]
+    },
+    {
+        "team": "Club Brujas",
+        "matches": [
+            {
+                "home_team_id": 18,
+                "away_team_id": 23
+            },
+            {
+                "home_team_id": 23,
+                "away_team_id": 16
+            },
+            {
+                "home_team_id": 22,
+                "away_team_id": 23
+            },
+            {
+                "home_team_id": 23,
+                "away_team_id": 10
+            },
+            {
+                "home_team_id": 35,
+                "away_team_id": 23
+            }
+        ]
+    },
+    {
+        "team": "Shakhtar Dotnetsk",
+        "matches": [
+            {
+                "home_team_id": 25,
+                "away_team_id": 21
+            },
+            {
+                "home_team_id": 27,
+                "away_team_id": 25
+            },
+            {
+                "home_team_id": 25,
+                "away_team_id": 36
+            },
+            {
+                "home_team_id": 17,
+                "away_team_id": 25
+            }
+        ]
+    },
+    {
+        "team": "AC Milan",
+        "matches": [
+            {
+                "home_team_id": 18,
+                "away_team_id": 28
+            },
+            {
+                "home_team_id": 30,
+                "away_team_id": 18
+            },
+            {
+                "home_team_id": 18,
+                "away_team_id": 13
+            },
+            {
+                "home_team_id": 33,
+                "away_team_id": 18
+            }
+        ]
+    },
+    {
+        "team": "Feyernoord",
+        "matches": [
+            {
+                "home_team_id": 26,
+                "away_team_id": 32
+            },
+            {
+                "home_team_id": 29,
+                "away_team_id": 26
+            },
+            {
+                "home_team_id": 26,
+                "away_team_id": 19
+            },
+            {
+                "home_team_id": 13,
+                "away_team_id": 26
+            }
+        ]
+    },
+    {
+        "team": "SCP Sporting",
+        "matches": [
+            {
+                "home_team_id": 16,
+                "away_team_id": 29
+            },
+            {
+                "home_team_id": 27,
+                "away_team_id": 16
+            },
+            {
+                "home_team_id": 16,
+                "away_team_id": 17
+            },
+            {
+                "home_team_id": 35,
+                "away_team_id": 16
+            }
+        ]
+    },
+    {
+        "team": "PSV Eindhoven",
+        "matches": [
+            {
+                "home_team_id": 28,
+                "away_team_id": 27
+            },
+            {
+                "home_team_id": 27,
+                "away_team_id": 13
+            },
+            {
+                "home_team_id": 36,
+                "away_team_id": 27
+            }
+        ]
+    },
+    {
+        "team": "GNK Dinamo Zagreb",
+        "matches": [
+            {
+                "home_team_id": 30,
+                "away_team_id": 22
+            },
+            {
+                "home_team_id": 32,
+                "away_team_id": 30
+            },
+            {
+                "home_team_id": 30,
+                "away_team_id": 31
+            },
+            {
+                "home_team_id": 33,
+                "away_team_id": 30
+            }
+        ]
+    },
+    {
+        "team": "RB Salzburg",
+        "matches": [
+            {
+                "home_team_id": 32,
+                "away_team_id": 36
+            },
+            {
+                "home_team_id": 19,
+                "away_team_id": 32
+            }
+        ]
+    },
+    {
+        "team": "LOSC Lille",
+        "matches": [
+            {
+                "home_team_id": 29,
+                "away_team_id": 35
+            },
+            {
+                "home_team_id": 17,
+                "away_team_id": 29
+            }
+        ]
+    },
+    {
+        "team": "Estrella Roja",
+        "matches": [
+            {
+                "home_team_id": 21,
+                "away_team_id": 28
+            },
+            {
+                "home_team_id": 28,
+                "away_team_id": 34
+            },
+            {
+                "home_team_id": 31,
+                "away_team_id": 28
+            }
+        ]
+    },
+    {
+        "team": "BSC Young Boys",
+        "matches": [
+            {
+                "home_team_id": 22,
+                "away_team_id": 21
+            },
+            {
+                "home_team_id": 21,
+                "away_team_id": 10
+            },
+            {
+                "home_team_id": 34,
+                "away_team_id": 21
+            }
+        ]
+    },
+    {
+        "team": "Celtic",
+        "matches": [
+            {
+                "home_team_id": 22,
+                "away_team_id": 33
+            },
+            {
+                "home_team_id": 10,
+                "away_team_id": 22
+            }
+        ]
+    },
+    {
+        "team": "SK Slovan Bratislava",
+        "matches": [
+            {
+                "home_team_id": 33,
+                "away_team_id": 34
+            },
+            {
+                "home_team_id": 13,
+                "away_team_id": 33
+            }
+        ]
+    },
+    {
+        "team": "AS Monaco",
+        "matches": [
+            {
+                "home_team_id": 31,
+                "away_team_id": 10
+            },
+            {
+                "home_team_id": 17,
+                "away_team_id": 31
+            }
+        ]
+    },
+    {
+        "team": "AC Sparta Praga",
+        "matches": [
+            {
+                "home_team_id": 19,
+                "away_team_id": 36
+            },
+            {
+                "home_team_id": 34,
+                "away_team_id": 19
+            }
+        ]
+    },
+    {
+        "team": "Aston Villa",
+        "matches": [
+            {
+                "home_team_id": 10,
+                "away_team_id": 17
+            }
+        ]
+    },
+    {
+        "team": "Bologna FC",
+        "matches": []
+    },
+    {
+        "team": "Girona FC",
+        "matches": [
+            {
+                "home_team_id": 35,
+                "away_team_id": 13
+            }
+        ]
+    },
+    {
+        "team": "Vfb Stuttgart",
+        "matches": []
+    },
+    {
+        "team": "SK Sturm Graz",
+        "matches": [
+            {
+                "home_team_id": 36,
+                "away_team_id": 35
+            }
+        ]
+    },
+    {
+        "team": "Stade Brestois 29",
+        "matches": []
+    }
+]
