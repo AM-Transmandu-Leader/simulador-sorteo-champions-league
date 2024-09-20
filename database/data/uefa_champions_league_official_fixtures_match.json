@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Real Madrid"
         },
-        "pots":[
+        "pots": [
             {
                 "position": 1,
                 "opponents": [
@@ -30,7 +30,7 @@
                     },
                     {
                         "id": 11,
-                        "name": "Atalanta",
+                        "name": "Atalanta BC",
                         "asHome": false
                     }
                 ]
@@ -52,7 +52,7 @@
             },
             {
                 "position": 4,
-                "opponents": [ 
+                "opponents": [
                     {
                         "id": 34,
                         "name": "Vfb Stuttgart",
@@ -106,7 +106,7 @@
             "id": 2,
             "name": "Manchester City"
         },
-        "pots":[
+        "pots": [
             {
                 "position": 1,
                 "opponents": [
@@ -154,7 +154,7 @@
             },
             {
                 "position": 4,
-                "opponents": [ 
+                "opponents": [
                     {
                         "id": 19,
                         "name": "AC Sparta Praga",
@@ -204,7 +204,72 @@
         ]
     },
     {
-        "team": "Bayern Munchen",
+        "team": {
+            "id": 3,
+            "name": "Bayern Munchen"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": true
+                    },
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": true
+                    },
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": true
+                    },
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": true
+                    },
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 3,
@@ -241,7 +306,72 @@
         ]
     },
     {
-        "team": "Paris Saint-Germain",
+        "team": {
+            "id": 6,
+            "name": "Paris Saint-Germain"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": true
+                    },
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": true
+                    },
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 6,
@@ -270,7 +400,72 @@
         ]
     },
     {
-        "team": "Liverpool",
+        "team": {
+            "id": 4,
+            "name": "Liverpool"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 29,
+                        "name": "LOSC Lille",
+                        "asHome": true
+                    },
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 17,
+                        "name": "Bologna FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 8,
@@ -303,7 +498,72 @@
         ]
     },
     {
-        "team": "Inter de Milan",
+        "team": {
+            "id": 5,
+            "name": "Inter de Milan"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": true
+                    },
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": true
+                    },
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": true
+                    },
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": true
+                    },
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 5,
@@ -332,7 +592,72 @@
         ]
     },
     {
-        "team": "Borussia Dortmund",
+        "team": {
+            "id": 7,
+            "name": "Borussia Dortmund"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": true
+                    },
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": true
+                    },
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": true
+                    },
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": true
+                    },
+                    {
+                        "id": 17,
+                        "name": "Bologna FC",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 7,
@@ -365,7 +690,72 @@
         ]
     },
     {
-        "team": "Leipzig",
+        "team": {
+            "id": 8,
+            "name": "RB Leipzig"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": true
+                    },
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": true
+                    },
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": true
+                    },
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": true
+                    },
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 8,
@@ -394,7 +784,72 @@
         ]
     },
     {
-        "team": "Barcelona FC",
+        "team": {
+            "id": 14,
+            "name": "FC Barcelona"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 11,
+                        "name": "Atalanta BC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": true
+                    },
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 36,
+                        "name": "Stade Brestois 29",
+                        "asHome": true
+                    },
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 14,
@@ -423,7 +878,72 @@
         ]
     },
     {
-        "team": "Bayer 04 Leverkusen",
+        "team": {
+            "id": 20,
+            "name": "Bayer 04 Leverkusen"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": true
+                    },
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": true
+                    },
+                    {
+                        "id": 36,
+                        "name": "Stade Brestois 29",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 20,
@@ -452,7 +972,72 @@
         ]
     },
     {
-        "team": "Atlético de Madrid",
+        "team": {
+            "id": 12,
+            "name": "Atlético de Madrid"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": true
+                    },
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 29,
+                        "name": "LOSC Lille",
+                        "asHome": true
+                    },
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": true
+                    },
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 15,
@@ -477,7 +1062,72 @@
         ]
     },
     {
-        "team": "Atalanta BC",
+        "team": {
+            "id": 11,
+            "name": "Atalanta BC"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": true
+                    },
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": true
+                    },
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": true
+                    },
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 11,
@@ -506,7 +1156,72 @@
         ]
     },
     {
-        "team": "Juventus",
+        "team": {
+            "id": 24,
+            "name": "Juventus"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": true
+                    },
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": true
+                    },
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": true
+                    },
+                    {
+                        "id": 29,
+                        "name": "LOSC Lille",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": true
+                    },
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 24,
@@ -535,9 +1250,74 @@
         ]
     },
     {
-        "team": "SL Benfica",
+        "team": {
+            "id": 15,
+            "name": "SL Benfica"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": true
+                    },
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": true
+                    },
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 17,
+                        "name": "Bologna FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
-             {
+            {
                 "home_team_id": 15,
                 "away_team_id": 26
             },
@@ -556,7 +1336,72 @@
         ]
     },
     {
-        "team": "Arsenal",
+        "team": {
+            "id": 9,
+            "name": "Arsenal"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": true
+                    },
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": true
+                    },
+                    {
+                        "id": 11,
+                        "name": "Atalanta BC",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": true
+                    },
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": true
+                    },
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 9,
@@ -581,7 +1426,72 @@
         ]
     },
     {
-        "team": "Club Brujas",
+        "team": {
+            "id": 23,
+            "name": "Club Brujas"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": true
+                    },
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": true
+                    },
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": true
+                    },
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": true
+                    },
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 18,
@@ -606,7 +1516,72 @@
         ]
     },
     {
-        "team": "Shakhtar Dotnetsk",
+        "team": {
+            "id": 25,
+            "name": "Shakhtar Dotnetsk"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 11,
+                        "name": "Atalanta BC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": true
+                    },
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 36,
+                        "name": "Stade Brestois 29",
+                        "asHome": true
+                    },
+                    {
+                        "id": 17,
+                        "name": "Bologna FC",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 25,
@@ -627,7 +1602,72 @@
         ]
     },
     {
-        "team": "AC Milan",
+        "team": {
+            "id": 18,
+            "name": "AC Milan"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": true
+                    },
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": true
+                    },
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": true
+                    },
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 18,
@@ -648,7 +1688,72 @@
         ]
     },
     {
-        "team": "Feyernoord",
+        "team": {
+            "id": 26,
+            "name": "Feyernoord"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": true
+                    },
+                    {
+                        "id": 29,
+                        "name": "LOSC Lille",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 26,
@@ -669,7 +1774,72 @@
         ]
     },
     {
-        "team": "SCP Sporting",
+        "team": {
+            "id": 16,
+            "name": "SCP Sporting"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": true
+                    },
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": true
+                    },
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 29,
+                        "name": "LOSC Lille",
+                        "asHome": true
+                    },
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 17,
+                        "name": "Bologna FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 16,
@@ -690,7 +1860,72 @@
         ]
     },
     {
-        "team": "PSV Eindhoven",
+        "team": {
+            "id": 27,
+            "name": "PSV Eindhoven"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": true
+                    },
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": true
+                    },
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": true
+                    },
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 36,
+                        "name": "Stade Brestois 29",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 28,
@@ -707,7 +1942,72 @@
         ]
     },
     {
-        "team": "GNK Dinamo Zagreb",
+        "team": {
+            "id": 30,
+            "name": "GNK Dinamo Zagreb"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": true
+                    },
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": true
+                    },
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": true
+                    },
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 30,
@@ -728,7 +2028,72 @@
         ]
     },
     {
-        "team": "RB Salzburg",
+        "team": {
+            "id": 30,
+            "name": "RB Salzburg"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": true
+                    },
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": true
+                    },
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 36,
+                        "name": "Stade Brestois 29",
+                        "asHome": true
+                    },
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 32,
@@ -741,7 +2106,72 @@
         ]
     },
     {
-        "team": "LOSC Lille",
+        "team": {
+            "id": 29,
+            "name": "LOSC Lille"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": true
+                    },
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": true
+                    },
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": true
+                    },
+                    {
+                        "id": 18,
+                        "name": "Bologna FC",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 29,
@@ -754,7 +2184,72 @@
         ]
     },
     {
-        "team": "Estrella Roja",
+        "team": {
+            "id": 28,
+            "name": "Estrella Roja"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": true
+                    },
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": true
+                    },
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": true
+                    },
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": true
+                    },
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 21,
@@ -771,7 +2266,72 @@
         ]
     },
     {
-        "team": "BSC Young Boys",
+        "team": {
+            "id": 21,
+            "name": "BSC Young Boys"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 11,
+                        "name": "Atalanta BC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": true
+                    },
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": true
+                    },
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 22,
@@ -788,7 +2348,72 @@
         ]
     },
     {
-        "team": "Celtic",
+        "team": {
+            "id": 22,
+            "name": "Celtic"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": true
+                    },
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": true
+                    },
+                    {
+                        "id": 11,
+                        "name": "Atalanta BC",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": true
+                    },
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": true
+                    },
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 22,
@@ -801,7 +2426,72 @@
         ]
     },
     {
-        "team": "SK Slovan Bratislava",
+        "team": {
+            "id": 33,
+            "name": "SK Slovan Bratislava"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": true
+                    },
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": true
+                    },
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": true
+                    },
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 33,
@@ -814,7 +2504,72 @@
         ]
     },
     {
-        "team": "AS Monaco",
+        "team": {
+            "id": 31,
+            "name": "AS Monaco"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": true
+                    },
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": true
+                    },
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": true
+                    },
+                    {
+                        "id": 30,
+                        "name": "GNK Dinamo Zagreb",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": true
+                    },
+                    {
+                        "id": 17,
+                        "name": "Bologna FC",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 31,
@@ -827,7 +2582,72 @@
         ]
     },
     {
-        "team": "AC Sparta Praga",
+        "team": {
+            "id": 19,
+            "name": "AC Sparta Praga"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 5,
+                        "name": "Inter de Milan",
+                        "asHome": true
+                    },
+                    {
+                        "id": 2,
+                        "name": "Manchester City",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 12,
+                        "name": "Atlético de Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": true
+                    },
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 36,
+                        "name": "Stade Brestois 29",
+                        "asHome": true
+                    },
+                    {
+                        "id": 34,
+                        "name": "Vfb Stuttgart",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],
         "matches": [
             {
                 "home_team_id": 19,
@@ -840,7 +2660,72 @@
         ]
     },
     {
-        "team": "Aston Villa",
+        "team": {
+            "id": 10,
+            "name": "Aston Villa"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 3,
+                        "name": "Bayern Munchen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": true
+                    },
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 22,
+                        "name": "Celtic",
+                        "asHome": true
+                    },
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 17,
+                        "name": "Bologna FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],        
         "matches": [
             {
                 "home_team_id": 10,
@@ -849,11 +2734,141 @@
         ]
     },
     {
-        "team": "Bologna FC",
+        "team": {
+            "id": 17,
+            "name": "Bologna FC"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": true
+                    },
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": true
+                    },
+                    {
+                        "id": 15,
+                        "name": "SL Benfica",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 19,
+                        "name": "LOSC Lille",
+                        "asHome": true
+                    },
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 31,
+                        "name": "AS Monaco",
+                        "asHome": true
+                    },
+                    {
+                        "id": 10,
+                        "name": "Aston Villa",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],         
         "matches": []
     },
     {
-        "team": "Girona FC",
+        "team":  {
+            "id": 13,
+            "name": "Girona FC"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 4,
+                        "name": "Liverpool",
+                        "asHome": true
+                    },
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 9,
+                        "name": "Arsenal",
+                        "asHome": true
+                    },
+                    {
+                        "id": 18,
+                        "name": "AC Milan",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 26,
+                        "name": "Feyernoord",
+                        "asHome": true
+                    },
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": true
+                    },
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],           
         "matches": [
             {
                 "home_team_id": 35,
@@ -862,11 +2877,141 @@
         ]
     },
     {
-        "team": "Vfb Stuttgart",
+        "team":  {
+            "id": 34,
+            "name": "Vfb Stuttgart"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 6,
+                        "name": "Paris Saint-Germain",
+                        "asHome": true
+                    },
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 11,
+                        "name": "Atalanta BC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 24,
+                        "name": "Juventus",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 21,
+                        "name": "BSC Young Boys",
+                        "asHome": true
+                    },
+                    {
+                        "id": 28,
+                        "name": "Estrella Roja",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": true
+                    },
+                    {
+                        "id": 33,
+                        "name": "SK Slovan Bratislava",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],         
         "matches": []
     },
     {
-        "team": "SK Sturm Graz",
+        "team":  {
+            "id": 35,
+            "name": "SK Sturm Graz"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 8,
+                        "name": "RB Leipzig",
+                        "asHome": true
+                    },
+                    {
+                        "id": 7,
+                        "name": "Borussia Dortmund",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 23,
+                        "name": "Club Brujas",
+                        "asHome": true
+                    },
+                    {
+                        "id": 11,
+                        "name": "Atalanta BC",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 16,
+                        "name": "SCP Sporting",
+                        "asHome": true
+                    },
+                    {
+                        "id": 29,
+                        "name": "LOSC Lille",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 13,
+                        "name": "Girona FC",
+                        "asHome": true
+                    },
+                    {
+                        "id": 36,
+                        "name": "Stade Brestois 29",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],          
         "matches": [
             {
                 "home_team_id": 36,
@@ -875,7 +3020,72 @@
         ]
     },
     {
-        "team": "Stade Brestois 29",
+        "team":  {
+            "id": 36,
+            "name":"Stade Brestois 29"
+        },
+        "pots": [
+            {
+                "position": 1,
+                "opponents": [
+                    {
+                        "id": 1,
+                        "name": "Real Madrid",
+                        "asHome": true
+                    },
+                    {
+                        "id": 14,
+                        "name": "FC Barcelona",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "opponents": [
+                    {
+                        "id": 20,
+                        "name": "Bayer 04 Leverkusen",
+                        "asHome": true
+                    },
+                    {
+                        "id": 25,
+                        "name": "Shakhtar Dotnetsk",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "opponents": [
+                    {
+                        "id": 27,
+                        "name": "PSV Eindhoven",
+                        "asHome": true
+                    },
+                    {
+                        "id": 32,
+                        "name": "RB Salzburg",
+                        "asHome": false
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "opponents": [
+                    {
+                        "id": 35,
+                        "name": "SK Sturm Graz",
+                        "asHome": true
+                    },
+                    {
+                        "id": 19,
+                        "name": "AC Sparta Praga",
+                        "asHome": false
+                    }
+                ]
+            }
+        ],         
         "matches": []
     }
 ]
