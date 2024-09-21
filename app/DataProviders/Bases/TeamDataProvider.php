@@ -6,8 +6,6 @@ class TeamDataProvider
 {
     protected $teams;
 
-    public function __construct() {}
-
     public function findByName(string $name): ?array
     {
         return $this->teams->where('name', $name)->first();

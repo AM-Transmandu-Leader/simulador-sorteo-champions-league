@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class UserProfile extends Model
 {
     use HasFactory;
+
     protected $fillable = [
         'phone',
         'bio',

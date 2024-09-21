@@ -8,9 +8,9 @@ use App\Models\Country;
 
 class JsonCountryDataProvider extends CountryDataProvider implements CountryDataProviderConcern
 {
-    public function __construct()
+    public function __construct($jsonFile)
     {
-        $this->countries = $this->getData(file_get_contents(database_path('data/countries.json')));
+        $this->countries = $this->getData($jsonFile);
 
     }
 
@@ -26,8 +26,8 @@ class JsonCountryDataProvider extends CountryDataProvider implements CountryData
                 'name' => $country->name,
                 'abbrevation' => strtoupper($country->alpha3),
                 'flag_picture' => ($country->alpha3 === 'eng' || $country->alpha3 === 'sco')
-                                        ? 'gb-' . strtolower($country->alpha3) . '.png'
-                                        : strtolower($country->alpha2) . '.png',
+                                        ? 'gb-'.strtolower($country->alpha3).'.png'
+                                        : strtolower($country->alpha2).'.png',
             ]);
         }
     }

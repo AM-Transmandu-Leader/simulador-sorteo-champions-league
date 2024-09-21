@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\DataProviders\Arrays\ArrayPotDataProvider;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class PotSeeder extends Seeder
@@ -13,7 +12,13 @@ class PotSeeder extends Seeder
      */
     public function run(): void
     {
-        $pots = new ArrayPotDataProvider();
+        $pots = new ArrayPotDataProvider([
+            ['position' => 1],
+            ['position' => 2],
+            ['position' => 3],
+            ['position' => 4],
+            ['position' => 99],
+        ]);
         $pots->import();
     }
 }

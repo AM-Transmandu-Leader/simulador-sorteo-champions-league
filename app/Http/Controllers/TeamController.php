@@ -13,6 +13,7 @@ class TeamController extends Controller
     public function index()
     {
         $teams = Team::with('country')->get();
+
         return view('teams.index', compact('teams'));
     }
 

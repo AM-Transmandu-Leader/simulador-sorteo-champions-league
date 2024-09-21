@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
             CountrySeeder::class,
             PotSeeder::class,
             TeamSeeder::class,
-            OfficialFixtureSeeder::class
+            OfficialFixtureSeeder::class,
         ]);
     }
 }

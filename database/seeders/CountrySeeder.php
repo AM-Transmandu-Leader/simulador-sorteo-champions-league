@@ -12,8 +12,8 @@ class CountrySeeder extends Seeder
      */
     public function run(): void
     {
-        $countries = new JsonCountryDataProvider;
+        $countries = new JsonCountryDataProvider(file_get_contents(database_path('data/countries.json')));
         $countries->import();
-        
+
     }
 }

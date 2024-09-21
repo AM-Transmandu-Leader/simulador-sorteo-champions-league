@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\DataProviders\Jsons\JsonTeamDataProvider;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class TeamSeeder extends Seeder
@@ -13,7 +12,7 @@ class TeamSeeder extends Seeder
      */
     public function run(): void
     {
-        $teams = new JsonTeamDataProvider();
+        $teams = new JsonTeamDataProvider(database_path('data/teams_clasified.json'));
         $teams->import();
         $teams->potAssigment();
     }
