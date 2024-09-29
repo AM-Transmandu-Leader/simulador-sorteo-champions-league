@@ -10,9 +10,9 @@ use App\Models\Team;
 
 class JsonTeamDataProvider extends TeamDataProvider implements TeamDataProviderConcern
 {
-    public function __construct()
+    public function __construct($fileJson)
     {
-        $this->teams = $this->getData(file_get_contents(database_path('data/teams_clasified.json')));
+        $this->teams = $this->getData($fileJson);
 
     }
 

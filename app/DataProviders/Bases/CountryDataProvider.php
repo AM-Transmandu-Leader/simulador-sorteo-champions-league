@@ -6,8 +6,6 @@ class CountryDataProvider
 {
     protected $countries;
 
-    public function __construct() {}
-
     public function findByName(string $name): ?array
     {
         return $this->countries->where('name', $name)->first();

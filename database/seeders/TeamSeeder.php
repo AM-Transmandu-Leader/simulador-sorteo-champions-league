@@ -13,7 +13,7 @@ class TeamSeeder extends Seeder
      */
     public function run(): void
     {
-        $teams = new JsonTeamDataProvider();
+        $teams = new JsonTeamDataProvider(file_get_contents(database_path('data/teams_clasified.json')));
         $teams->import();
         $teams->potAssigment();
     }
