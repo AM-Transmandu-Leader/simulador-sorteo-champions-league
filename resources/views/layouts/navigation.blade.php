@@ -26,6 +26,11 @@
                         {{ __('Teams Clasified') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('official_fixtures.index')" :active="request()->routeIs('official_fixtures.index')">
+                        {{ __('Official Fixture') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

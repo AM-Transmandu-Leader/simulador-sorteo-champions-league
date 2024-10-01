@@ -6,5 +6,4 @@ class PotDataProvider
 {
     protected $pots;
 
-    public function __construct() {}
 }
