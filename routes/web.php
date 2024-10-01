@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -10,7 +11,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('web.home');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
@@ -20,6 +21,9 @@ Route::middleware('auth')->group(function () {
 
     //Routes for Countries
     Route::get('/countries', [CountryController::class, 'index'])->name('countries.index');
+
+    //Routes for teams
+    Route::get('/teams_clasified', [TeamController::class, 'index'])->name('teams.index');
 });
 
 require __DIR__.'/auth.php';

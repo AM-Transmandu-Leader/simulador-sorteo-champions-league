@@ -22,10 +22,10 @@
                             <tr
                                 class="px-6 py-3 bg-indigo-300 text-indigo-700 font-semibold align-middle border border-solid border-indigo-700">
                                 <th> # </th>
-                                <th>{{ __('name')}}</th>
-                                <th>{{ __('abbreviation')}}</th>
-                                <th>{{ __('flag')}}</th>
-                                <th>{{ __('teams')}}</th>
+                                <th>{{ __('Name')}}</th>
+                                <th>{{ __('Abbrevation')}}</th>
+                                <th>{{ __('Flag')}}</th>
+                                <th>{{ __('Teams')}}</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -46,16 +46,18 @@
                                     
                                 </td>
                                 <td>
-                                    <ul class="bg-white rounded-lg shadow divide-y divide-gray-200 max-w-sm">
-                                        AQUI VAN LOS EQUIPOS DE {{ $country->name }}
-                                        {{-- @foreach ($country->teams as $team)
-                                        <li class="px-6 py-4">
-                                            <div class="flex justify-between">
+                                    <ul class="bg-white rounded-lg shadow divide-y divide-gray-200 ">
+                                        
+                                        @foreach ($country->teams as $team)
+                                        <li class="px-4 py-2 w-full">
+                                            <div class="flex justify-around w-full">
+                                                <img src="{{ asset('icons/teams_emblem/' . $team->emblem) }}" alt="{{ $team->abbrevation }}" height="64px" width="64px" >
                                                 <span class="font-semibold text-lg">{{ $team->name }}</span>
-                                                <span class="text-zinc-500 text-sm">{{ $team->coeff }}</span>
+                                               
+                                               
                                             </div>
                                         </li>
-                                        @endforeach --}}
+                                        @endforeach
                                     </ul>
                                 </td>
                             </tr>

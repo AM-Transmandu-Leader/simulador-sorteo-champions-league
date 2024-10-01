@@ -26,7 +26,9 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call([
-            CountrySeeder::class
+            CountrySeeder::class,
+            PotSeeder::class,
+            TeamSeeder::class
         ]);
     }
 }
